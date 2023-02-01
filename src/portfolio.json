@@ -1,0 +1,44 @@
+[
+    {
+        "id": "001",
+        "img": "/images/quiz-game.png",
+        "project": "Quiz Game",
+        "github": "https://github.com/t-minini/project-one-the-game",
+        "website": "https://t-minini.github.io/project-one-the-game/"
+      },
+      {
+        "id": "002",
+        "img": "/images/concerts-database.png",
+        "project": "Concert's Database",
+        "github": "https://github.com/t-minini/concert-database",
+        "website": "https://concert-database.netlify.app/"
+      },
+    {
+      "id": "003",
+      "img": "/images/where-to-go.png",
+      "project": "Where to Go?",
+      "github": "https://github.com/t-minini/where-to-go-front",
+      "website": "https://wheretogo-tm.netlify.app/"
+    },
+    {
+      "id": "004",
+      "img": "/images/skilled.png",
+      "project": "Skilled e-learning",
+      "github": "https://github.com/t-minini/skilled-elearning-landing-page",
+      "website": "https://t-minini.github.io/skilled-elearning-landing-page/"
+    },
+    {
+      "id": "005",
+      "img": "/images/modern-art-gallery.jpg",
+      "project": "Modern Art Gallery ",
+      "github": "https://github.com/t-minini/art-gallery-website",
+      "website": "https://modern-art-gallery-tm.netlify.app/"
+    },
+    {
+        "id": "006",
+        "img": "/images/meta-tag-img.jpg",
+        "project": "My Website",
+        "github": "https://github.com/t-minini/my-website",
+        "website": "https://tuliominini.com/"
+      }
+  ]
