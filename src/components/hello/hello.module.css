@@ -1,0 +1,70 @@
+.hello_container {
+  background: var(--color2-blue);
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+  padding-top: 7rem;
+}
+
+.hello__phrase {
+  position: relative;
+  z-index: 2;
+}
+
+/* hello, I'm Tulio  */
+
+.hello__phrase h2 {
+  color: var(--color4-grey-light);
+  font-size: 5rem;
+  font-weight: var(--font-weight-medium);
+  margin-top: 11%;
+}
+
+.hello__phrase h2 span {
+  color: var(--color4-grey-light);
+  font-size: 5rem;
+  font-weight: var(--font-weight-extra-bold);
+}
+
+/* front-end and developer  */
+.hello__phrase h1:nth-of-type(1),
+h1:nth-of-type(2) {
+  color: var(--color4-grey-light);
+  font-size: 20rem;
+  font-weight: var(--font-weight-medium);
+  font-family: "Alfa Slab One", cursive;
+  line-height: 17rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.2rem var(--color1-pink);
+}
+
+/* developer */
+.hello__phrase h1:nth-of-type(2) {
+  text-align: right;
+}
+
+.hello__phrase h1:nth-of-type(2) span {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 20rem;
+  -webkit-text-fill-color: var(--color1-pink);
+  -webkit-text-stroke: 0;
+}
+
+.hello__photo img:nth-of-type(1) {
+  max-height: 90rem;
+  position: absolute;
+  bottom: 0;
+  right: 20rem;
+  z-index: 1;
+}
+
+img:nth-of-type(2) {
+  width: 800px;
+  max-height: 150rem;
+  /* width: 100px; */
+  /* object-fit: cover; */
+  /* object-position: -260px 160px; */
+  position: absolute;
+  top: -30rem;
+  left: 92.8rem;
+}

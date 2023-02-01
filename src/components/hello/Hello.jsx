@@ -1,12 +1,27 @@
 import style from "./hello.module.css";
 
+import photo from "./../../assets/images/my-photo.png";
+// import background from "./../../assets/images/photo-background.svg";
+
 export function Hello() {
   return (
     <header className={style.hello_container}>
-      <h1>Hello, I'm Tulio</h1>
-      <h1>
-        front-end <span>dev</span>eloper
-      </h1>
+      <div className={style.hello__phrase}>
+        <h2>
+          Hello, I'm <span>Tulio</span>
+        </h2>
+        <h1>front-end</h1>
+        <h1>
+          <span>dev</span>eloper.
+        </h1>
+      </div>
+      <div className={style.hello__photo}>
+        <img
+          src={photo}
+          alt="a black and white photograph of me siting on a bench, smiling, wearing a grey shirt, black trousers and a watch"
+        />
+        {/* <img src={background} alt="" /> */}
+      </div>
     </header>
   );
 }

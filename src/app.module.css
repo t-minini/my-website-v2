@@ -7,11 +7,19 @@
     --color6-grey-medium: #808080;
     --color7-grey-dark: #3a3a3a;
     
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500; 
+    --font-weight-semi-bold: 600; 
+    --font-weight-bold: 700; 
+    --font-weight-extra-bold: 800; 
+    --font-weight-black: 900; 
 
   }
   
   html {
     min-height: 100%;
+    /* background-color: var(--color2-blue); */
   }
   
   *,
