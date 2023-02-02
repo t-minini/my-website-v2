@@ -25,6 +25,7 @@
   font-weight: var(--font-weight-black);
   animation: blinkArrow 1.5s infinite;
 }
+
 @keyframes blinkArrow {
   0% {
     color: var(--color1-pink);
