@@ -21,8 +21,8 @@ export function About() {
           In 2015, I made the decision to leave Brazil and relocate to Dublin,
           Ireland, where I've been living for the past seven years. I aimed to
           gain life experience away from family and become fluent in English. I
-          spent roughly three and a half years working in the hospitality
-          industry before returning to my career as a design technician, which
+          spent roughly three and a half years working in hospitality
+          before returning to my career as a design technician, which
           was my primary area of expertise, and during the three years in this
           profession, my English vocabulary as well as my hard and soft skills
           were significantly improved.
@@ -42,10 +42,7 @@ export function About() {
           since I've been working on smaller projects and taking online classes
           to hone my coding, styling, and design abilities.
           <br />
-          <br />A little more about me: I have a modest but expanding vinyl
-          collection. I love cats, travelling, Star Wars and Star Trek, and
-          going to music concerts. I also enjoy talking about space and
-          afterlife theories.
+          <br />I have a modest but expanding vinyl collection. I love cats, travelling, Star Wars and Star Trek, and going to music concerts. I dream big and always give my best in everything I do. I also enjoy talking about space and afterlife theories.
         </p>
       </div>
     </article>
