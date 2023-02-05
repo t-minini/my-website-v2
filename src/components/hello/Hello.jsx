@@ -1,7 +1,5 @@
 import style from "./hello.module.css";
-
 import photo from "./../../assets/images/my-photo.png";
-// import background from "./../../assets/images/photo-background.svg";
 
 export function Hello() {
   return (
@@ -20,7 +18,6 @@ export function Hello() {
           src={photo}
           alt="a black and white photograph of me siting on a bench, smiling, wearing a grey shirt, black trousers and a watch"
         />
-        {/* <img src={background} alt="" /> */}
       </div>
     </header>
   );

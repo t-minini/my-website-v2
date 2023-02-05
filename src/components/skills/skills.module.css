@@ -25,9 +25,6 @@
 }
 
 .skills__icons {
-  /* display: grid; */
-  /* grid-template-columns: repeat(5, 1fr); */
-  /* grid-template-rows: auto; */
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -40,7 +37,6 @@
 }
 
 .skills__icon_circled {
-  /* width: 15rem; */
   width: 90px;
   border-radius: 50%;
   object-fit: cover;
@@ -57,7 +53,7 @@
 .skills__using p,
 .skills__learning p,
 .skills__other p {
-  color: var(--color6-grey-medium);
+  color: var(--color5-grey-medium);
   font-weight: var(--font-weight-light);
   font-size: 2rem;
   text-transform: uppercase;

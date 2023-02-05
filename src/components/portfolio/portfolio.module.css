@@ -10,7 +10,7 @@
 }
 
 .portfolio__title h2 {
-  color: var(--color7-grey-dark);
+  color: var(--color6-grey-dark);
   font-weight: var(--font-weight-bold);
   font-size: 7rem;
   line-height: 6rem;
@@ -46,7 +46,6 @@
 .portfolio__card {
   width: 38rem;
   height: 22rem;
-  border: 1px solid var(--color7-grey-dark);
   cursor: pointer;
   margin-bottom: 2%;
   box-shadow:  7px 7px 0px #e8e8e8,
@@ -116,8 +115,6 @@ a:hover {
 }
 
 .portfolio__card_links {
-  /* background-color: red; */
-  /* width: 100%; */
   display: flex;
   justify-content: space-evenly;
 }

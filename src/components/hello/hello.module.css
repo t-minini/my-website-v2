@@ -58,14 +58,3 @@ h1:nth-of-type(2) {
   right: 20rem;
   z-index: 1;
 }
-
-img:nth-of-type(2) {
-  width: 800px;
-  max-height: 150rem;
-  /* width: 100px; */
-  /* object-fit: cover; */
-  /* object-position: -260px 160px; */
-  position: absolute;
-  top: -30rem;
-  left: 92.8rem;
-}
