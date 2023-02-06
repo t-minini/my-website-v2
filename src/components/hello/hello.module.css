@@ -73,6 +73,8 @@ h1:nth-of-type(2) {
   .hello_container {
     width: 100%;
     padding: 5rem;
+    /* padding-top: unset; */
+    /* height: 100vh; */
   }
 
   /* hello, I'm Tulio  */
@@ -104,8 +106,8 @@ h1:nth-of-type(2) {
   .hello__photo img {
     max-height: 115rem;
     object-fit: cover;
-    right: 1em;
-    object-position: 20rem 3rem;
+    right: 0;
+    object-position: 15rem;
   }
 }
 
@@ -144,10 +146,10 @@ h1:nth-of-type(2) {
   }
 
   .hello__photo img {
-    max-height: 85rem;
+    max-height: 81rem;
     object-fit: cover;
     right: 1em;
-    object-position: 1rem 3rem;
+    object-position: 1rem;
   }
 }
 
