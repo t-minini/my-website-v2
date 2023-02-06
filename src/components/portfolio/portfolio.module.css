@@ -48,8 +48,7 @@
   height: 22rem;
   cursor: pointer;
   margin-bottom: 2%;
-  box-shadow:  7px 7px 0px #e8e8e8,
-  -7px -7px 0px #ffffff;
+  box-shadow: 7px 7px 0px #e8e8e8, -7px -7px 0px #ffffff;
 }
 
 .portfolio__card h5 {
@@ -98,8 +97,7 @@
 .portfolio__card_body:hover {
   opacity: 0.9;
 }
-
-a {
+.portfolio__card_links a {
   background-color: var(--color1-pink);
   border: 0.2rem solid var(--color1-pink);
   border-radius: 1.5rem;

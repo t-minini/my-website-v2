@@ -1,20 +1,55 @@
+import { Link } from "react-scroll";
 import style from "./navbar.module.css";
-// import logo from "./../../assets/images/logo.png";
 
 export function Navbar() {
   return (
     <nav className={style.navbar_container}>
-      <div className={style.navbar__logo}>
+      <Link
+        to="hello"
+        style={{ textDecoration: "none", background: "transparent" }}
+        smooth={true}
+        className={style.navbar__logo}
+      >
         <h2>
           <span>&#62;</span>tm
         </h2>
-      </div>
+      </Link>
+
       <div className={style.navbar__ul}>
         <ul>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
+          <Link
+            to="about"
+            offset={-70}
+            style={{ textDecoration: "none", background: "transparent" }}
+            smooth={true}
+          >
+            <li>About</li>
+          </Link>
+          <Link
+            to="skills"
+            offset={-70}
+            style={{ textDecoration: "none", background: "transparent" }}
+            smooth={true}
+          >
+            <li>Skills</li>
+          </Link>
+          <Link
+            to="portfolio"
+            offset={-70}
+            style={{ textDecoration: "none", background: "transparent" }}
+            smooth={true}
+          >
+            <li>Portfolio</li>
+          </Link>
+          <Link
+            to="contact"
+            style={{
+              textDecoration: "none",
+            }}
+            smooth={true}
+          >
+            <li>Contact</li>
+          </Link>
         </ul>
       </div>
     </nav>

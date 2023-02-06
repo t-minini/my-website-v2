@@ -23,7 +23,7 @@ import portuguese from "./../../assets/icons/brazil.svg";
 
 export function Skills() {
   return (
-    <article className={style.skills_container}>
+    <article id="skills" className={style.skills_container}>
       <div className={style.skills__title}>
         <h2>
           <span>&#62;</span>skills

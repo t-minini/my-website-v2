@@ -4,7 +4,7 @@ import projectsJSON from "./../../portfolio.json";
 
 export function Portfolio() {
   return (
-    <article className={style.portfolio_container}>
+    <article id="portfolio" className={style.portfolio_container}>
       <div className={style.portfolio__title}>
         <h2>
           <span>&#62;</span>portfolio

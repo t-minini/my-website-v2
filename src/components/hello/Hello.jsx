@@ -3,7 +3,7 @@ import photo from "./../../assets/images/my-photo.png";
 
 export function Hello() {
   return (
-    <header className={style.hello_container}>
+    <header id="hello" className={style.hello_container}>
       <div className={style.hello__phrase}>
         <h2>
           Hello, I'm <span>Tulio</span>
