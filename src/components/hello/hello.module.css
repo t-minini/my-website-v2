@@ -82,9 +82,7 @@ h1:nth-of-type(2) {
   }
 
   .hello__phrase h2 span {
-    color: var(--color4-grey-light);
     font-size: 5rem;
-    font-weight: var(--font-weight-extra-bold);
   }
 
   /* front-end & developer  */
@@ -106,17 +104,72 @@ h1:nth-of-type(2) {
   .hello__photo img {
     max-height: 115rem;
     object-fit: cover;
-    right: 0em;
-    object-position:200px 30px;
+    right: 1em;
+    object-position: 20rem 3rem;
   }
 }
 
 /* iPhone 11 Pro Max / XR 414 x 896  */
 
 @media (max-width: 414px) {
+  .hello_container {
+    padding: 2rem;
+  }
+
+  /* hello, I'm Tulio  */
+
+  .hello__phrase h2 {
+    margin-top: 90%;
+    font-size: 3.3rem;
+  }
+
+  .hello__phrase h2 span {
+    font-size: 3.3rem;
+  }
+
+  /* front-end & developer  */
+  .hello__phrase h1:nth-of-type(1),
+  h1:nth-of-type(2) {
+    font-size: 6.6rem;
+    line-height: 6rem;
+  }
+
+  .hello__phrase h1:nth-of-type(2) span {
+    font-size: 6.6rem;
+  }
+
+  .hello__photo img {
+    max-height: 87rem;
+    right: 1em;
+    object-position: 15rem 3rem;
+  }
 }
 
 /* iPhone 13 Pro 390 x 844  */
 
 @media (max-width: 390px) {
+  /* hello, I'm Tulio  */
+
+  .hello__phrase h2 {
+    /* margin-top: 90%; */
+    font-size: 3.2rem;
+  }
+
+  .hello__phrase h2 span {
+    font-size: 3.2rem;
+  }
+
+  /* front-end & developer  */
+  .hello__phrase h1:nth-of-type(1),
+  h1:nth-of-type(2) {
+    font-size: 6rem;
+  }
+
+  .hello__phrase h1:nth-of-type(2) span {
+    font-size: 6rem;
+  }
+
+  .hello__photo img {
+    max-height: 85rem;
+  }
 }

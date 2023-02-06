@@ -121,6 +121,29 @@
 /* iPhone 11 Pro Max / XR 414 x 896  */
 
 @media (max-width: 414px) {
+  .navbar_container {
+    /* width: 100%; */
+    /* margin: 0; */
+    padding: 2rem;
+  }
+
+  .navbar_background {
+    width: 100%;
+    /* margin: 0; */
+    padding: 2rem;
+  }
+
+  .navbar__logo h2 {
+    font-size: 3.5rem;
+  }
+
+  .navbar__logo span {
+    font-size: 3.5rem;
+  }
+
+  .navbar__ul ul {
+    gap: 1.5rem;
+  }
 }
 
 /* iPhone 13 Pro 390 x 844  */
