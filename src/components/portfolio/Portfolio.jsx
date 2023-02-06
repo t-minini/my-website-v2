@@ -1,5 +1,4 @@
 import style from "./portfolio.module.css";
-
 import projectsJSON from "./../../portfolio.json";
 
 export function Portfolio() {

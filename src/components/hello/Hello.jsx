@@ -10,7 +10,7 @@ export function Hello() {
         </h2>
         <h1>front-end</h1>
         <h1>
-          <span>dev</span>eloper.
+          <span>dev</span>eloper
         </h1>
       </div>
       <div className={style.hello__photo}>

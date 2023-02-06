@@ -1,25 +1,25 @@
 import style from "./skills.module.css";
 
-import html from "./../../assets/icons/html.svg";
 import css from "./../../assets/icons/css.svg";
-import javascript from "./../../assets/icons/javascript.svg";
-import react from "./../../assets/icons/react.svg";
-import bootstrap from "./../../assets/icons/bootstrap.svg";
-import mui from "./../../assets/icons/material-ui.svg";
-import figma from "./../../assets/icons/figma.svg";
-import github from "./../../assets/icons/github-1.svg";
-
+import html from "./../../assets/icons/html.svg";
 import sass from "./../../assets/icons/sass.svg";
+import jest from "./../../assets/icons/jest.png";
+import react from "./../../assets/icons/react.svg";
+import figma from "./../../assets/icons/figma.svg";
+import docker from "./../../assets/icons/docker.svg";
+import nodejs from "./../../assets/icons/nodejs.svg";
+import mui from "./../../assets/icons/material-ui.svg";
+import github from "./../../assets/icons/github-1.svg";
+import angular from "./../../assets/icons/angular.svg";
+import mongodb from "./../../assets/icons/mongodb.svg";
+import firebase from "./../../assets/icons/firebase.svg";
+import portuguese from "./../../assets/icons/brazil.svg";
+import bootstrap from "./../../assets/icons/bootstrap.svg";
+import javascript from "./../../assets/icons/javascript.svg";
 import typescript from "./../../assets/icons/typescript.svg";
 import reactNative from "./../../assets/icons/react-native.svg";
-import jest from "./../../assets/icons/jest.png";
-import firebase from "./../../assets/icons/firebase.svg";
-import docker from "./../../assets/icons/docker.svg";
-import angular from "./../../assets/icons/angular.svg";
 
-import nodejs from "./../../assets/icons/nodejs.svg";
-import mongodb from "./../../assets/icons/mongodb.svg";
-import portuguese from "./../../assets/icons/brazil.svg";
+
 
 export function Skills() {
   return (

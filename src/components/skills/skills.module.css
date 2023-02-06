@@ -24,6 +24,12 @@
   font-size: 7rem;
 }
 
+.skills__title span:hover {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.2rem var(--color1-pink);
+}
+
+
 .skills__icons {
   display: flex;
   flex-wrap: wrap;

@@ -24,6 +24,12 @@
   color: var(--color1-pink);
   font-size: 7rem;
 }
+
+.portfolio__title span:hover {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.2rem var(--color1-pink);
+}
+
 .portfolio__flex {
   display: flex;
   flex-wrap: wrap;
@@ -96,7 +102,9 @@
 
 .portfolio__card_body:hover {
   opacity: 0.9;
+  transition: .8s;
 }
+
 .portfolio__card_links a {
   background-color: var(--color1-pink);
   border: 0.2rem solid var(--color1-pink);

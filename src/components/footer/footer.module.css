@@ -18,9 +18,18 @@
   height: 3rem;
 }
 
+.footer__back_top img:hover {
+  filter: invert(44%) sepia(49%) saturate(3953%) hue-rotate(316deg) brightness(96%) contrast(84%);
+}
+
 .footer__back_top p {
   font-size: 1.5rem;
   text-transform: uppercase;
+}
+
+.footer__back_top p:hover {
+  color: var(--color1-pink);
+  transition: 0.5s;
 }
 
 .footer_container h2 {
@@ -54,6 +63,7 @@ span:nth-of-type(3) {
 
 .footer__icons img:hover {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(36deg) brightness(103%) contrast(103%);
+  transition: 0.9s;
 }
 
 .footer__copyright p {

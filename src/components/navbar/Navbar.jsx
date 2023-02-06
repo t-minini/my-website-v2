@@ -1,9 +1,25 @@
+import { useState } from "react";
 import { Link } from "react-scroll";
 import style from "./navbar.module.css";
 
+
+
 export function Navbar() {
+
+  // change nav background color when scrolling
+  const [navColor, setNavColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 70) {
+      setNavColor(true);
+    } else {
+      setNavColor(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeColor)
+
   return (
-    <nav className={style.navbar_container}>
+    <nav className={ `${navColor ? style.navbar_background : style.navbar_container}`}>
       <Link
         to="hello"
         style={{ textDecoration: "none", background: "transparent" }}

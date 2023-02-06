@@ -16,7 +16,7 @@ export function About() {
           Hi,
           <iframe
             src={"https://giphy.com/embed/w1OBpBd7kJqHrJnJ13"}
-            frameborder="0"
+            frameBorder="0"
             title="hello"
             style={{
               position: "relative",

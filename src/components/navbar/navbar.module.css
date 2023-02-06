@@ -1,6 +1,21 @@
 .navbar_container {
   color: var(--color4-grey-light);
+  transition: 0.9s;
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  margin: 0 5%;
+}
+
+.navbar_background {
   background: var(--color2-blue);
+  color: var(--color4-grey-light);
+  transition: 0.9s;
   height: 7rem;
   display: flex;
   justify-content: space-between;
@@ -57,8 +72,6 @@
   font-size: 2.2rem;
   font-weight: var(--font-weight-medium);
 }
-
-
 
 .navbar__ul li:hover {
   cursor: pointer;
