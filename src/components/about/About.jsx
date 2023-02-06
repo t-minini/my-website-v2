@@ -5,7 +5,7 @@ export function About() {
     <article id="about" className={style.about_container}>
       <div className={style.about__title}>
         <h2>
-          <span>&#62;</span>about <br /> me
+          <span>&#62;</span>about me
         </h2>
       </div>
       <div className={style.about__text}>
