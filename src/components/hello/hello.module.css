@@ -3,8 +3,8 @@
   height: 100vh;
   width: 90%;
   margin: auto;
+  padding:  0 8rem;
   padding-top: 7rem;
-  padding: 8rem;
 }
 
 .hello__phrase {
@@ -79,7 +79,7 @@ h1:nth-of-type(2) {
   /* hello, I'm Tulio  */
 
   .hello__phrase h2 {
-    margin-top: 55%;
+    margin-top: 50%;
   }
 
   .hello__phrase h2 span {
