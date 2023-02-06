@@ -164,6 +164,45 @@ a:hover {
   }
 }
 
+/* iPad Air 1180 x 820 (portrait)  */
+
+@media (min-width: 1180px) and (max-width: 1180px) {
+  .portfolio_container {
+    grid-template-columns: auto;
+    padding: 5rem;
+    width: 100%;
+    border-radius: unset;
+  }
+
+  .portfolio__title h2 {
+    margin-top: 0;
+  }
+
+  .portfolio__flex {
+    margin-top: 4rem;
+    gap: 2rem;
+  }
+
+  .portfolio__card {
+    width: 51rem;
+    height: 31rem;
+  }
+
+  .portfolio__card h5 {
+    font-size: 3rem;
+  }
+  
+  .portfolio__card p {
+    font-size: 1.9rem;
+  }
+
+  .portfolio__card_links a {
+    border: 0.15rem solid var(--color1-pink);
+    width: 11rem;
+    font-size: 2rem;
+  }
+}
+
 /* iPhone 11 Pro Max / XR 414 x 896  */
 
 @media (max-width: 414px) {

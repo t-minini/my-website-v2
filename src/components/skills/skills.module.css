@@ -91,6 +91,30 @@
   }
 }
 
+/* iPad Air 1180 x 820 (portrait)  */
+
+@media (min-width: 1180px) and (max-width: 1180px) {
+  .skills_container {
+    padding: 5rem;
+    grid-template-columns: auto;
+    width: 100%;
+  }
+  .skills__title h2 {
+    margin-top: 0;
+  }
+
+  .skills__icons {
+    margin-bottom: 0;
+  }
+
+  .skills__using h3,
+  .skills__learning h3,
+  .skills__other h3 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+
 /* iPhone 11 Pro Max / XR 414 x 896  */
 
 @media (max-width: 414px) {
@@ -107,7 +131,6 @@
 
   .skills__icons {
     justify-content: space-evenly;
-
   }
 
   .skills__using h3,

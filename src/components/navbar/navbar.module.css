@@ -118,6 +118,26 @@
   }
 }
 
+/* iPad Air 1180 x 820 (portrait)  */
+
+@media (min-width: 1180px) and (max-width: 1180px) {
+  .navbar_container {
+    width: 100%;
+    margin: 0;
+    padding: 3rem;
+  }
+
+  .navbar_background {
+    width: 100%;
+    margin: 0;
+    padding: 3rem;
+  }
+
+  .navbar__ul ul {
+    gap: 2.5rem;
+  }
+}
+
 /* iPhone 11 Pro Max / XR 414 x 896  */
 
 @media (max-width: 414px) {
@@ -129,7 +149,6 @@
 
   .navbar_background {
     width: 100%;
-    /* margin: 0; */
     padding: 2rem;
   }
 

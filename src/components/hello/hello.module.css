@@ -109,6 +109,48 @@ h1:nth-of-type(2) {
   }
 }
 
+/* iPad Air 1180 x 820 (portrait)  */
+
+@media (min-width: 1180px) and (max-width: 1180px) {
+  .hello_container {
+    width: 100%;
+    padding: 5rem;
+  }
+
+  /* hello, I'm Tulio  */
+
+  .hello__phrase h2 {
+    margin-top: 20%;
+  }
+
+  .hello__phrase h2 span {
+    font-size: 5rem;
+  }
+
+  /* front-end & developer  */
+  .hello__phrase h1:nth-of-type(1),
+  h1:nth-of-type(2) {
+    font-size: 12rem;
+    line-height: 10rem;
+  }
+
+  /* developer */
+  .hello__phrase h1:nth-of-type(2) {
+    text-align: right;
+  }
+
+  .hello__phrase h1:nth-of-type(2) span {
+    font-size: 12rem;
+  }
+
+  .hello__photo img {
+    max-height: 85rem;
+    object-fit: cover;
+    right: 1em;
+    object-position: 1rem 3rem;
+  }
+}
+
 /* iPhone 11 Pro Max / XR 414 x 896  */
 
 @media (max-width: 414px) {
