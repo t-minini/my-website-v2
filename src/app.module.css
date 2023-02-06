@@ -18,7 +18,7 @@
   
   html {
     min-height: 100%;
-    background-color: var(--color2-blue);
+    /* background-color: var(--color2-blue); */
   }
   
   *,
