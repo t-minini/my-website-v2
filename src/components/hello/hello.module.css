@@ -5,6 +5,7 @@
   margin: auto;
   padding: 0 8rem;
   padding-top: 7rem;
+  /* z-index: 7; */
 }
 
 .hello__phrase {
@@ -54,7 +55,8 @@ h1:nth-of-type(2) {
 .hello__photo img {
   max-height: 90rem;
   position: relative;
-  bottom: 61.5rem;
+  /* bottom: 61.5rem; */
+  bottom: 61rem;
   left: 100rem;
   z-index: 1;
 }
