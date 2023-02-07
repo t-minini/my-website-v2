@@ -5,7 +5,6 @@
   margin: auto;
   padding: 0 8rem;
   padding-top: 7rem;
-  /* z-index: 7; */
 }
 
 .hello__phrase {
@@ -108,7 +107,7 @@ h1:nth-of-type(2) {
     max-height: 115rem;
     object-fit: cover;
     bottom: 67.6rem;
-    left: .3rem;
+    left: 0.3rem;
     object-position: 15rem;
   }
 }
@@ -160,7 +159,9 @@ h1:nth-of-type(2) {
 
 @media (max-width: 414px) {
   .hello_container {
-    padding: 2rem;
+    /* padding: 2rem; */
+    padding: 0 2rem;
+    padding-top: 7rem;
   }
 
   /* hello, I'm Tulio  */
@@ -188,7 +189,9 @@ h1:nth-of-type(2) {
   .hello__photo img {
     max-height: 87rem;
     right: 1em;
-    object-position: 15rem 3rem;
+    bottom: 53.3rem;
+    left: -18.5rem;
+    object-position: 17rem 3rem;
   }
 }
 
