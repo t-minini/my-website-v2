@@ -3,7 +3,7 @@
   height: 100vh;
   width: 90%;
   margin: auto;
-  padding:  0 8rem;
+  padding: 0 8rem;
   padding-top: 7rem;
 }
 
@@ -53,9 +53,9 @@ h1:nth-of-type(2) {
 
 .hello__photo img {
   max-height: 90rem;
-  position: absolute;
-  bottom: 0;
-  right: 20rem;
+  position: relative;
+  bottom: 61.5rem;
+  left: 100rem;
   z-index: 1;
 }
 
@@ -105,7 +105,8 @@ h1:nth-of-type(2) {
   .hello__photo img {
     max-height: 115rem;
     object-fit: cover;
-    right: 0;
+    bottom: 67.6rem;
+    left: .3rem;
     object-position: 15rem;
   }
 }
@@ -147,7 +148,8 @@ h1:nth-of-type(2) {
   .hello__photo img {
     max-height: 81rem;
     object-fit: cover;
-    right: 1em;
+    bottom: 53.3rem;
+    left: 50rem;
     object-position: 1rem;
   }
 }
