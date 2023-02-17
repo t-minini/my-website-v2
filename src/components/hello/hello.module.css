@@ -4,7 +4,7 @@
   width: 90%;
   margin: auto;
   padding: 0 8rem;
-  /* padding-top: 7rem;git  */
+  /* padding-top: 7rem;  */
 }
 
 .hello__phrase {
@@ -80,7 +80,7 @@ h1:nth-of-type(2) {
   .hello_container {
     width: 100%;
     padding: 0 5rem;
-    padding-top: 7rem;
+    /* padding-top: 7rem; */
   }
 
   /* hello, I'm Tulio  */
