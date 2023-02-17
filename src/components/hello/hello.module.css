@@ -53,10 +53,10 @@ h1:nth-of-type(2) {
 
 .hello__photo img {
   max-height: 90rem;
-  position: relative;
+  position: absolute;
   /* bottom: 61.5rem; */
-  bottom: 61rem;
-  left: 100rem;
+  bottom: 0rem;
+  right: 0rem;
   z-index: 1;
 }
 
@@ -65,7 +65,7 @@ h1:nth-of-type(2) {
 @media (max-width: 1512px) {
   .hello__photo img {
     max-height: 80rem;
-    left: 74rem;
+    right: 10rem;
   }
 }
 
@@ -107,8 +107,8 @@ h1:nth-of-type(2) {
   .hello__photo img {
     max-height: 115rem;
     object-fit: cover;
-    bottom: 67.6rem;
-    left: 0.3rem;
+    /* bottom: 67.6rem; */
+    right: 0;
     object-position: 15rem;
   }
 }
@@ -150,15 +150,15 @@ h1:nth-of-type(2) {
   .hello__photo img {
     max-height: 81rem;
     object-fit: cover;
-    bottom: 53.3rem;
-    left: 50rem;
+    /* bottom: 53.3rem; */
+    right: 1rem;
     object-position: 1rem;
   }
 }
 
 /* iPhone 11 Pro Max / XR 414 x 896  */
 
-@media (max-width: 414px) {
+@media only screen and (max-width: 414px) {
   .hello_container {
     /* padding: 2rem; */
     padding: 0 2rem;
@@ -190,8 +190,8 @@ h1:nth-of-type(2) {
   .hello__photo img {
     max-height: 87rem;
     right: 1em;
-    bottom: 53.3rem;
-    left: -18.5rem;
+    /* bottom: 53.3rem; */
+    right: 0;
     object-position: 17rem 3rem;
   }
 }
@@ -202,7 +202,7 @@ h1:nth-of-type(2) {
   /* hello, I'm Tulio  */
 
   .hello__phrase h2 {
-    /* margin-top: 90%; */
+    margin-top: 70%;
     font-size: 3.2rem;
   }
 
@@ -213,11 +213,11 @@ h1:nth-of-type(2) {
   /* front-end & developer  */
   .hello__phrase h1:nth-of-type(1),
   h1:nth-of-type(2) {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .hello__phrase h1:nth-of-type(2) span {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .hello__photo img {
