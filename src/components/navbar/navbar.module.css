@@ -168,6 +168,8 @@
 
   .navbar__logo h2 {
     font-size: 3.5rem;
+    position: relative;
+    z-index: 4;
   }
 
   .navbar__logo span {
@@ -175,7 +177,7 @@
   }
 
   .navbar__ul {
-    margin-top: 7rem;
+    padding-top: 7rem;
     padding-right: 2rem;
     position: fixed;
     top: 0;

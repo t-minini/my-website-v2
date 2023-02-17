@@ -14,7 +14,7 @@ export function Navbar() {
   // change nav background color when scrolling
   const [navColor, setNavColor] = useState(false);
   const changeColor = () => {
-    if (window.scrollY >= 70) {
+    if (window.scrollY >= 100) {
       setNavColor(true);
     } else {
       setNavColor(false);
