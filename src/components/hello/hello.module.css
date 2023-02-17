@@ -10,6 +10,8 @@
 .hello__phrase {
   position: relative;
   z-index: 2;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 /* hello, I'm Tulio  */
@@ -18,7 +20,9 @@
   color: var(--color4-grey-light);
   font-size: 5rem;
   font-weight: var(--font-weight-medium);
-  margin-top: 11%;
+  /* align-items: flex-end; */
+  align-self: end;
+  /* margin-top: 11%; */
 }
 
 .hello__phrase h2 span {
@@ -37,6 +41,7 @@ h1:nth-of-type(2) {
   line-height: 17rem;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 0.2rem var(--color1-pink);
+  /* align-self: end; */
 }
 
 /* developer */
@@ -81,7 +86,7 @@ h1:nth-of-type(2) {
   /* hello, I'm Tulio  */
 
   .hello__phrase h2 {
-    margin-top: 50%;
+    /* margin-top: 50%; */
   }
 
   .hello__phrase h2 span {
@@ -168,7 +173,7 @@ h1:nth-of-type(2) {
   /* hello, I'm Tulio  */
 
   .hello__phrase h2 {
-    margin-top: 90%;
+    /* margin-top: 90%; */
     font-size: 3.3rem;
   }
 
@@ -202,7 +207,7 @@ h1:nth-of-type(2) {
   /* hello, I'm Tulio  */
 
   .hello__phrase h2 {
-    margin-top: 70%;
+    /* margin-top: 70%; */
     font-size: 3.2rem;
   }
 
