@@ -161,7 +161,9 @@ h1:nth-of-type(2) {
     max-height: 81rem;
     object-fit: cover;
     /* bottom: 53.3rem; */
-    right: 1rem;
+    /* right: 1rem; */
+    left: 50rem;
+    bottom: 44rem;
     object-position: 1rem;
   }
 }
@@ -199,10 +201,12 @@ h1:nth-of-type(2) {
 
   .hello__photo img {
     max-height: 87rem;
-    right: 1em;
+    /* right: 1em; */
     /* bottom: 53.3rem; */
-    right: 0;
-    object-position: 17rem 3rem;
+    /* right: 0; */
+    right: 18.5rem;
+    bottom: 40.5rem;
+    /* object-position: 17rem 3rem; */
   }
 }
 
