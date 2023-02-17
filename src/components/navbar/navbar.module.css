@@ -154,7 +154,7 @@
 
 @media only screen and (max-width: 414px) {
   .navbar_container {
-    /* width: 100%; */
+    width: 100%;
     /* width: 414px; */
     /* margin: 0; */
     padding: 2rem;

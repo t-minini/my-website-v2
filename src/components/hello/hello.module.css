@@ -8,6 +8,7 @@
 }
 
 .hello__phrase {
+  padding-top: 10%;
   position: relative;
   z-index: 2;
   display: grid;
@@ -56,22 +57,22 @@ h1:nth-of-type(2) {
   -webkit-text-stroke: 0;
 }
 
-.hello__photo img {
+.hello__photo {
   max-height: 90rem;
-  /* position: absolute; */
-  position:relative;
-  object-position: bottom;
+  position: absolute;
+  /* position:relative; */
+  /* object-position: bottom; */
   /* bottom: 61.5rem; */
   bottom: 0rem;
-  right: 0rem;
+  /* right: 0rem; */
   z-index: 1;
 }
 
 /* MacBook Pro 14"  */
 
 @media (max-width: 1512px) {
-  .hello__photo img {
-    max-height: 83rem;
+  .hello__photo {
+    max-height: 84rem;
     right: 10rem;
   }
 }
@@ -179,6 +180,11 @@ h1:nth-of-type(2) {
 
   /* hello, I'm Tulio  */
 
+  .hello__phrase {
+    /* margin-top: 20%; */
+    padding-top: 30rem;
+  }
+
   .hello__phrase h2 {
     /* margin-top: 90%; */
     font-size: 3.3rem;
@@ -199,14 +205,15 @@ h1:nth-of-type(2) {
     font-size: 6.6rem;
   }
 
-  .hello__photo img {
-    max-height: 87rem;
+  .hello__photo {
+    max-height: 89rem;
     /* right: 1em; */
     /* bottom: 53.3rem; */
     /* right: 0; */
-    right: 18.5rem;
-    bottom: 40.5rem;
-    /* object-position: 17rem 3rem; */
+    right: 0;
+    /* bottom: 30rem; */
+    /* overflow: hidden; */
+    object-position: 17rem 3rem;
   }
 }
 
