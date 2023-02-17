@@ -59,6 +59,7 @@ h1:nth-of-type(2) {
 .hello__photo img {
   max-height: 90rem;
   position: absolute;
+  object-position: bottom;
   /* bottom: 61.5rem; */
   bottom: 0rem;
   right: 0rem;
@@ -115,6 +116,7 @@ h1:nth-of-type(2) {
     /* bottom: 67.6rem; */
     right: 0;
     /* object-position: 15rem; */
+    /* object-position: bottom left; */
   }
 }
 
