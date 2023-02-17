@@ -4,7 +4,7 @@
   width: 90%;
   margin: auto;
   padding: 0 8rem;
-  padding-top: 7rem;
+  /* padding-top: 7rem;git  */
 }
 
 .hello__phrase {
@@ -114,7 +114,7 @@ h1:nth-of-type(2) {
     object-fit: cover;
     /* bottom: 67.6rem; */
     right: 0;
-    /* object-position: 15rem 0; */
+    object-position: 15rem;
   }
 }
 
