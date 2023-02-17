@@ -16,7 +16,6 @@
 }
 
 /* hello, I'm Tulio  */
-
 .hello__phrase h2 {
   color: var(--color4-grey-light);
   font-size: 5rem;
@@ -112,12 +111,12 @@ h1:nth-of-type(2) {
     font-size: 12rem;
   }
 
-  .hello__photo img {
+  .hello__photo {
     max-height: 115rem;
     /* object-fit: cover; */
     /* bottom: 67.6rem; */
-    right: -0.4rem;
-    bottom: 50rem;
+    right: 0;
+    /* bottom: 50rem; */
     object-position: 15rem;
     /* object-position: bottom left; */
   }
@@ -158,13 +157,13 @@ h1:nth-of-type(2) {
     font-size: 12rem;
   }
 
-  .hello__photo img {
+  .hello__photo {
     max-height: 81rem;
     object-fit: cover;
     /* bottom: 53.3rem; */
     /* right: 1rem; */
     left: 50rem;
-    bottom: 44rem;
+    /* bottom: 44rem; */
     object-position: 1rem;
   }
 }
