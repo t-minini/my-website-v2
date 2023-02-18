@@ -82,7 +82,6 @@ h1:nth-of-type(2) {
   .hello_container {
     width: 100%;
     padding: 0 5rem;
-    /* padding-top: 7rem; */
   }
 
   /* hello, I'm Tulio  */
@@ -112,13 +111,9 @@ h1:nth-of-type(2) {
 
   .hello__photo {
     max-height: 115rem;
-    /* object-fit: cover; */
-    /* bottom: 67.6rem; */
     right: 0;
     top: 3rem;
-    /* bottom: 50rem; */
     object-position: 15rem;
-    /* object-position: bottom left; */
   }
 }
 
@@ -160,11 +155,8 @@ h1:nth-of-type(2) {
   .hello__photo {
     max-height: 81rem;
     object-fit: cover;
-    /* bottom: 53.3rem; */
-    /* right: 1rem; */
     left: 50rem;
     top: 1rem;
-    /* bottom: 44rem; */
     object-position: 1rem;
   }
 }
@@ -173,20 +165,15 @@ h1:nth-of-type(2) {
 
 @media only screen and (max-width: 414px) {
   .hello_container {
-    /* padding: 2rem; */
     padding: 0 2rem;
-    /* padding-top: 7rem; */
   }
 
   /* hello, I'm Tulio  */
-
   .hello__phrase {
-    /* margin-top: 20%; */
-    padding-top: 30rem;
+    padding-top: 80%;
   }
 
   .hello__phrase h2 {
-    /* margin-top: 90%; */
     font-size: 3.3rem;
   }
 
@@ -207,14 +194,50 @@ h1:nth-of-type(2) {
 
   .hello__photo {
     max-height: 89rem;
-    /* right: 1em; */
-    /* bottom: 53.3rem; */
-    /* right: 0; */
     right: 0;
     top: 1rem;
-    /* bottom: 30rem; */
-    /* overflow: hidden; */
     object-position: 17rem 3rem;
+  }
+}
+
+/* iPhone 11 Pro Max / XR 896 x 414 (portrait) */
+
+@media only screen and (min-width: 896px) and (max-width: 896px) {
+  .hello_container {
+    padding: 4rem;
+    width: 100%;
+  }
+
+  /* hello, I'm Tulio  */
+  .hello__phrase {
+    padding-top: 9%;
+  }
+
+  .hello__phrase h2 {
+    font-size: 3.3rem;
+  }
+
+  .hello__phrase h2 span {
+    font-size: 3.3rem;
+  }
+
+  /* front-end & developer  */
+  .hello__phrase h1:nth-of-type(1),
+  h1:nth-of-type(2) {
+    letter-spacing: 0.5rem;
+    font-size: 8rem;
+    line-height: 7rem;
+  }
+
+  .hello__phrase h1:nth-of-type(2) span {
+    font-size: 8rem;
+  }
+
+  .hello__photo {
+    max-height: 89rem;
+    right: 2rem;
+    top: 1rem;
+    object-position: 8rem -1rem;
   }
 }
 
@@ -242,7 +265,8 @@ h1:nth-of-type(2) {
     font-size: 5rem;
   }
 
-  .hello__photo img {
+  .hello__photo {
     max-height: 85rem;
+    top: 1rem;
   }
 }

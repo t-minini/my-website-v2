@@ -152,7 +152,7 @@ a:hover {
   .portfolio__card h5 {
     font-size: 2.3rem;
   }
-  
+
   .portfolio__card p {
     font-size: 1.3rem;
   }
@@ -191,7 +191,7 @@ a:hover {
   .portfolio__card h5 {
     font-size: 3rem;
   }
-  
+
   .portfolio__card p {
     font-size: 1.9rem;
   }
@@ -231,7 +231,51 @@ a:hover {
   .portfolio__card h5 {
     font-size: 2rem;
   }
-  
+
+  .portfolio__card p {
+    font-size: 1.2rem;
+  }
+
+  .portfolio__card_links a {
+    border: 0.15rem solid var(--color1-pink);
+    width: 9rem;
+    font-size: 1.5rem;
+  }
+}
+
+/* iPhone 11 Pro Max / XR 896 x 414 (portrait) */
+
+@media only screen and (min-width: 896px) and (max-width: 896px) {
+  .portfolio_container {
+    grid-template-columns: auto;
+    width: 100%;
+    border-radius: unset;
+    padding: 4rem;
+  }
+
+  .portfolio__title h2 {
+    margin-top: 0;
+    font-size: 5rem;
+  }
+
+  .portfolio__title span {
+    font-size: 5rem;
+  }
+
+  .portfolio__flex {
+    margin-top: 4rem;
+    gap: 2rem;
+  }
+
+  .portfolio__card {
+    width: 35rem;
+    height: 19rem;
+  }
+
+  .portfolio__card h5 {
+    font-size: 2rem;
+  }
+
   .portfolio__card p {
     font-size: 1.2rem;
   }

@@ -99,15 +99,12 @@
 }
 
 .nav_btn {
-  /* padding: 2px; */
   cursor: pointer;
   background: transparent;
   border: none;
   outline: none;
   color: var(--color1-pink);
-  /* visibility: hidden; */
   display: none;
-  /* opacity: 0; */
 }
 
 /* iPad Air 820 x 1180  */
@@ -155,14 +152,11 @@
 @media only screen and (max-width: 414px) {
   .navbar_container {
     width: 100%;
-    /* width: 414px; */
-    /* margin: 0; */
     padding: 2rem;
     position: fixed;
   }
 
   .navbar_background {
-    /* width: 414px; */
     padding: 2rem;
   }
 
@@ -182,28 +176,23 @@
     position: fixed;
     top: 0;
     left: 0;
-    /* height: 14%; */
     width: 100%;
-    /* width: 414px; */
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
     background: rgb(24, 60, 80, 0.6);
     backdrop-filter: blur(0.3rem);
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
     transform: translateX(100vh);
     gap: 1rem;
   }
 
   .nav_btn {
-    /* visibility: visible; */
     display: block;
-    /* opacity: 1; */
   }
 
   .responsive {
     transform: none;
-    /* transition: 0.9s; */
   }
 
   .nav_close_btn {
@@ -226,6 +215,28 @@
     background-color: transparent;
     cursor: pointer;
     transition: 0.5s;
+  }
+}
+
+/* iPhone 11 Pro Max / XR 896 x 414 (portrait) */
+
+@media only screen and (min-width: 896px) and (max-width: 896px) {
+  .navbar_container {
+    width: 100%;
+    padding: 4rem;
+    position: fixed;
+    margin: 0;
+  }
+
+  .navbar_background {
+    width: 100%;
+    padding: 4rem;
+    position: fixed;
+    margin: 0;
+  }
+
+  .navbar__ul {
+    gap: 2rem;
   }
 }
 

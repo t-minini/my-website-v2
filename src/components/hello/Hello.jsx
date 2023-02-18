@@ -13,13 +13,11 @@ export function Hello() {
           <span>dev</span>eloper
         </h1>
       </div>
-      {/* <div > */}
-        <img
-          src={photo}
-          alt="a black and white photograph of me siting on a bench, smiling, wearing a grey shirt, black trousers and a watch"
-          className={style.hello__photo}
-        />
-      {/* </div> */}
+      <img
+        src={photo}
+        alt="a black and white photograph of me siting on a bench, smiling, wearing a grey shirt, black trousers and a watch"
+        className={style.hello__photo}
+      />
     </header>
   );
 }

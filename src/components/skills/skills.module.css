@@ -158,6 +158,49 @@
   }
 }
 
+/* iPhone 11 Pro Max / XR 896 x 414 (portrait) */
+
+@media only screen and (min-width: 896px) and (max-width: 896px) {
+  .skills_container {
+    padding: 2rem;
+  }
+  .skills__title h2 {
+    font-size: 5rem;
+  }
+
+  .skills__title span {
+    font-size: 5rem;
+  }
+
+  .skills__icons {
+    justify-content: space-evenly;
+  }
+
+  .skills__using h3,
+  .skills__learning h3,
+  .skills__other h3 {
+    font-size: 2.1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .skills__using p,
+  .skills__learning p,
+  .skills__other p {
+    font-size:1.5rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .skills__icons img {
+    height: 6rem;
+    margin: 1rem;
+  }
+
+  .skills__icon_circled {
+    width: 6rem;
+  }
+}
+
 /* iPhone 13 Pro 390 x 844  */
 
 @media (max-width: 390px) {
