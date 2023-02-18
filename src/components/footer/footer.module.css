@@ -36,7 +36,7 @@
 .footer_container h2 {
   font-size: 4.4rem;
   font-weight: var(--font-weight-light);
-  margin: 4rem 0;
+  margin: 2rem 0;
 }
 
 .footer_container h2 span:nth-of-type(1),
