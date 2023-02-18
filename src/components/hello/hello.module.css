@@ -115,6 +115,7 @@ h1:nth-of-type(2) {
     /* object-fit: cover; */
     /* bottom: 67.6rem; */
     right: 0;
+    top: 3rem;
     /* bottom: 50rem; */
     object-position: 15rem;
     /* object-position: bottom left; */
@@ -162,6 +163,7 @@ h1:nth-of-type(2) {
     /* bottom: 53.3rem; */
     /* right: 1rem; */
     left: 50rem;
+    top: 1rem;
     /* bottom: 44rem; */
     object-position: 1rem;
   }
