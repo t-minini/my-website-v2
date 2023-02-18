@@ -42,28 +42,3 @@ export function Portfolio() {
     </article>
   );
 }
-
-/* <div key={projectsJSON.id} className={style.portfolio__card}>
-              <div>
-                <img src={`${projectsJSON.img}`} alt="project screenshot" />
-              </div>
-              <div className={style.portfolio__card_body}>
-                <h5>{projectsJSON.project}</h5>
-                <div className={style.card_btns}>
-                  <a
-                    href={projectsJSON.github}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <button className={style.card_btn}>GitHub</button>
-                  </a>
-                  <a
-                    href={projectsJSON.website}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <button className={style.card_btn}>Website</button>
-                  </a>
-                </div>
-              </div>
-            </div> */

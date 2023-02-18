@@ -4,7 +4,6 @@
   width: 90%;
   margin: auto;
   padding: 0 8rem;
-  /* padding-top: 7rem;  */
 }
 
 .hello__phrase {
@@ -20,9 +19,7 @@
   color: var(--color4-grey-light);
   font-size: 5rem;
   font-weight: var(--font-weight-medium);
-  /* align-items: flex-end; */
   align-self: end;
-  /* margin-top: 11%; */
 }
 
 .hello__phrase h2 span {
@@ -41,7 +38,6 @@ h1:nth-of-type(2) {
   line-height: 17rem;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 0.2rem var(--color1-pink);
-  /* align-self: end; */
 }
 
 /* developer */
@@ -59,17 +55,13 @@ h1:nth-of-type(2) {
 .hello__photo {
   max-height: 90rem;
   position: absolute;
-  /* position:relative; */
-  /* object-position: bottom; */
-  /* bottom: 61.5rem; */
   bottom: 0rem;
-  /* right: 0rem; */
   z-index: 1;
 }
 
 /* MacBook Pro 14"  */
 
-@media (max-width: 1512px) {
+@media only screen and (max-width: 1512px) {
   .hello__photo {
     max-height: 84rem;
     right: 10rem;
@@ -78,7 +70,7 @@ h1:nth-of-type(2) {
 
 /* iPad Air 820 x 1180  */
 
-@media (max-width: 820px) {
+@media only screen and (max-width: 820px) {
   .hello_container {
     width: 100%;
     padding: 0 5rem;
@@ -119,16 +111,14 @@ h1:nth-of-type(2) {
 
 /* iPad Air 1180 x 820 (portrait)  */
 
-@media (min-width: 1180px) and (max-width: 1180px) {
+@media only screen and (min-width: 1180px) and (max-width: 1180px) {
   .hello_container {
     width: 100%;
     padding: 0 5rem;
   }
 
   /* hello, I'm Tulio  */
-
   .hello__phrase {
-    /* margin-top: 20%; */
     padding-top: 15rem;
   }
 
@@ -202,7 +192,7 @@ h1:nth-of-type(2) {
 
 /* iPhone 11 Pro Max / XR 896 x 414 (portrait) */
 
-@media only screen and (min-width: 896px) and (max-width: 896px) {
+@media only screen and (min-width: 805px) and (max-width: 819px) {
   .hello_container {
     padding: 4rem;
     width: 100%;
@@ -210,11 +200,11 @@ h1:nth-of-type(2) {
 
   /* hello, I'm Tulio  */
   .hello__phrase {
-    padding-top: 9%;
+    padding-top: 10%;
   }
 
   .hello__phrase h2 {
-    font-size: 3.3rem;
+    font-size: 3rem;
   }
 
   .hello__phrase h2 span {
@@ -243,9 +233,8 @@ h1:nth-of-type(2) {
 
 /* iPhone 13 Pro 390 x 844  */
 
-@media (max-width: 390px) {
+@media only screen and (max-width: 390px) {
   /* hello, I'm Tulio  */
-
   .hello__phrase h2 {
     /* margin-top: 70%; */
     font-size: 3.2rem;

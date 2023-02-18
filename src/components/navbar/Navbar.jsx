@@ -1,6 +1,6 @@
-import { useRef, useState } from "react";
 import { Link } from "react-scroll";
 import style from "./navbar.module.css";
+import { useRef, useState } from "react";
 
 import { IoMenu } from "react-icons/io5";
 

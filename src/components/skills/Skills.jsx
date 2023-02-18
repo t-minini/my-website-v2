@@ -1,5 +1,4 @@
 import style from "./skills.module.css";
-
 import css from "./../../assets/icons/css.svg";
 import html from "./../../assets/icons/html.svg";
 import sass from "./../../assets/icons/sass.svg";
@@ -18,8 +17,6 @@ import bootstrap from "./../../assets/icons/bootstrap.svg";
 import javascript from "./../../assets/icons/javascript.svg";
 import typescript from "./../../assets/icons/typescript.svg";
 import reactNative from "./../../assets/icons/react-native.svg";
-
-
 
 export function Skills() {
   return (
