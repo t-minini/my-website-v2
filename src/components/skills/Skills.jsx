@@ -17,6 +17,7 @@ import bootstrap from "./../../assets/icons/bootstrap.svg";
 import javascript from "./../../assets/icons/javascript.svg";
 import typescript from "./../../assets/icons/typescript.svg";
 import reactNative from "./../../assets/icons/react-native.svg";
+import redux from "./../../assets/icons/redux.svg"
 
 export function Skills() {
   return (
@@ -65,7 +66,7 @@ export function Skills() {
           </div>
         </div>
         <div className={style.skills__learning}>
-          <h3>learning:</h3>
+          <h3>interests:</h3>
           <div className={style.skills__icons}>
             <div>
               <img src={sass} alt="sass icon in pink color" />
@@ -77,7 +78,7 @@ export function Skills() {
             </div>
             <div>
               <img src={reactNative} alt="react native icon in blue color" />
-              <p>react native</p>
+              <p>native</p>
             </div>
             <div>
               <img src={jest} alt="jest icon in marron color" />
@@ -94,6 +95,10 @@ export function Skills() {
             <div>
               <img src={angular} alt="angular icon in red color" />
               <p>angular</p>
+            </div>
+            <div>
+              <img src={redux} alt="angular icon in red color" />
+              <p>redux</p>
             </div>
           </div>
         </div>
