@@ -46,14 +46,14 @@
   }
   25% {
     -webkit-text-fill-color: transparent;
-    /* -webkit-text-stroke: 0.2rem var(--color1-pink); */
+    -webkit-text-stroke: 0.2rem var(--color1-pink);
   }
   50% {
     color: var(--color1-pink);
   }
   75% {
     -webkit-text-fill-color: transparent;
-    /* -webkit-text-stroke: 0.2rem var(--color1-pink); */
+    -webkit-text-stroke: 0.2rem var(--color1-pink);
   }
   100% {
     color: var(--color1-pink);
@@ -243,9 +243,4 @@
 /* iPhone 13 Pro 390 x 844  */
 
 @media only screen and (max-width: 390px) {
-}
-
-/* iPhone 13 Pro 844 x 390 (portrait)  */
-
-@media only screen and (max-width: 844px) {
 }
