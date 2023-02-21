@@ -18,6 +18,7 @@ import javascript from "./../../assets/icons/javascript.svg";
 import typescript from "./../../assets/icons/typescript.svg";
 import reactNative from "./../../assets/icons/react-native.svg";
 import redux from "./../../assets/icons/redux.svg"
+import vue from "./../../assets/icons/vue.svg"
 
 export function Skills() {
   return (
@@ -97,8 +98,12 @@ export function Skills() {
               <p>angular</p>
             </div>
             <div>
-              <img src={redux} alt="angular icon in red color" />
+              <img src={redux} alt="redux icon in purple color" />
               <p>redux</p>
+            </div>
+            <div>
+              <img src={vue} alt="vue icon in blue and green" />
+              <p>vue</p>
             </div>
           </div>
         </div>
