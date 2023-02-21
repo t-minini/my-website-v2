@@ -131,10 +131,6 @@
     font-size: 5rem;
   }
 
-  .skills__icons {
-    justify-content: space-evenly;
-  }
-
   .skills__using h3,
   .skills__learning h3,
   .skills__other h3 {
@@ -171,10 +167,6 @@
 
   .skills__title span {
     font-size: 5rem;
-  }
-
-  .skills__icons {
-    justify-content: space-evenly;
   }
 
   .skills__using h3,
