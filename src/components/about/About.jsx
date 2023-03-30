@@ -27,28 +27,21 @@ export function About() {
           />
           <br />
           <br />
-          my name is Tulio Minini, a professional with 10+ years of experience,
-          working for small to medium-sized businesses in the construction,
-          interior design, architecture and hospitality industries. <br />
+          I'm Tulio Minini, a front-end developer with a passion for creating
+          beautiful, functional websites that deliver exceptional user
+          experiences. With over a decade of professional experience in the
+          construction, interior design, architecture, and hospitality
+          industries, I bring a unique perspective to my work. <br />
           <br />
-          In 2015, I made the decision to leave Brazil and relocate to Dublin,
-          Ireland, where I've been living for the past seven years. I aimed to
-          gain life experience away from family and become fluent in English. I
-          spent roughly three and a half years working in hospitality before
-          returning to my career as a design technician, which was my primary
-          area of expertise, and during the three years in this profession, my
-          English vocabulary as well as my hard and soft skills were
-          significantly improved.
-          <br />
-          <br />
-          When the pandemic struck in 2020, I decided to rethink and re-evaluate
-          my professional goals—I felt like something was missing! I began
-          making plans to switch careers to technology, something I always
-          wanted, but never dared to do, afraid of starting over in a brand-new
-          field.
+          Originally from Brazil, I relocated to Dublin, Ireland, in 2015 to
+          challenge myself and improve my language skills. After spending
+          several years working in hospitality, I returned to my primary area of
+          expertise as a design technician. However, the pandemic gave me the
+          opportunity to reevaluate my professional goals and pursue my
+          long-standing interest in technology.
           <br />
           <br />
-          In 2022, I carried out my objectives by completing{" "}
+          In 2022, I completed{" "}
           <a
             href="https://www.ironhack.com/en"
             target={"_blank"}
@@ -57,16 +50,22 @@ export function About() {
           >
             Ironhack
           </a>
-          ’s full-stack web development bootcamp, which lasted nine weeks and
-          required 360 hours of full-time study time. Because of my background
-          in interior design, I fell in love with the front-end stack, and ever
-          since I've been working on smaller projects and taking online classes
-          to hone my coding, styling, and design abilities.
+          's full-stack web development bootcamp, which provided me with the
+          technical skills and knowledge necessary to become a front-end
+          developer. As someone with a background in interior design, I have a
+          keen eye for design and aesthetics, and I enjoy creating visually
+          appealing websites that are also functional and user-friendly.
           <br />
-          <br />I have a modest but expanding vinyl collection. I love cats,
-          travelling, Star Wars and Star Trek, and going to music concerts. I
-          dream big and always give my best in everything I do. I also enjoy
-          talking about space and afterlife theories.
+          <br />
+          When I'm not coding, I enjoy listening to music, collecting vinyl
+          records, and attending concerts. I'm also a cat lover and a sci-fi
+          enthusiast, with a particular interest in space and afterlife
+          theories.
+          <br />
+          <br />
+          With a dedication to excellence and a passion for learning, I'm
+          excited to continue growing as a developer and contributing to
+          innovative projects.
         </p>
       </div>
     </article>
