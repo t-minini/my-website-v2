@@ -1,12 +1,12 @@
 .portfolio_container {
   background: var(--color3-white);
   height: fit-content;
-  width: 90%;
+  /* width: 90%; */
   margin: auto;
   display: grid;
   grid-template-columns: 0.5fr 1fr;
   padding: 8rem;
-  border-radius: 4rem;
+  /* border-radius: 4rem; */
 }
 
 .portfolio__title h2 {
@@ -54,7 +54,7 @@
   height: 22rem;
   cursor: pointer;
   margin-bottom: 2%;
-  box-shadow: 7px 7px 0px #e8e8e8, -7px -7px 0px #ffffff;
+  box-shadow: 7px 7px 0px #e8e8e8;
 }
 
 .portfolio__card h5 {
@@ -91,7 +91,6 @@
   text-align: center;
   color: var(--color3-white);
   padding: 1.5rem;
-
   display: grid;
   align-items: center;
 }
@@ -109,7 +108,7 @@
   background-color: var(--color1-pink);
   border: 0.2rem solid var(--color1-pink);
   border-radius: 1.5rem;
-  width: 10rem;
+  width: 12rem;
   font-size: 2rem;
   text-decoration: none;
   color: var(--color3-white);
@@ -245,7 +244,7 @@ a:hover {
   .portfolio_container {
     grid-template-columns: auto;
     width: 100%;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
     padding: 4rem;
   }
 

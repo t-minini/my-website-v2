@@ -5,7 +5,7 @@
     "project": "Quiz Game",
     "github": "https://github.com/t-minini/project-one-the-game",
     "website": "https://t-minini.github.io/quiz-game/",
-    "description": "My first project, created during the bootcamp, coded entirely in HTML, CSS, and JavaScript."
+    "description": "My first project ever, created during the bootcamp, coded entirely in HTML, CSS, and JavaScript."
   },
   {
     "id": "002",
@@ -22,6 +22,14 @@
     "github": "https://github.com/t-minini/where-to-go-front",
     "website": "https://wheretogo-tm.netlify.app/",
     "description": "Final project for the Bootcamp, an  E-commerce in the travel service for those seeking an experience beyond traditional travel packages."
+  },
+  {
+    "id": "007",
+    "img": "/images/portfolio-imgs/tulio-minini-website-v1.jpg",
+    "project": "My Website V1",
+    "github": "https://github.com/t-minini/my-website",
+    "website": "https://tulio-minini-v1.netlify.app/",
+    "description": "The first version of my website/portfolio."
   },
   {
     "id": "004",
@@ -42,9 +50,9 @@
   {
     "id": "006",
     "img": "/images/portfolio-imgs/tulio-minini-website.png",
-    "project": "My Website",
-    "github": "https://github.com/t-minini/my-website",
+    "project": "My Website V2",
+    "github": "https://github.com/t-minini/my-website-v2",
     "website": "https://tuliominini.com/",
-    "description": "This is the second version of my website/portfolio." 
+    "description": "This is the second version of my website/portfolio."
   }
 ]

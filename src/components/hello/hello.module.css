@@ -1,9 +1,9 @@
 .hello_container {
   background: var(--color2-blue);
   height: 100vh;
-  width: 90%;
+  /* width: 90%; */
   margin: auto;
-  padding: 0 8rem;
+  padding: 0 17.5rem;
 }
 
 .hello__phrase {
