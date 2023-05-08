@@ -65,7 +65,7 @@ export function Navbar() {
           smooth={true}
           onClick={showNavbar}
         >
-          <li>Portfolio</li>
+          <li>Projects</li>
         </Link>
         <Link
           to="contact"

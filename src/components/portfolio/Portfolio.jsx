@@ -6,7 +6,7 @@ export function Portfolio() {
     <article id="portfolio" className={style.portfolio_container}>
       <div className={style.portfolio__title}>
         <h2>
-          <span>&#62;</span>portfolio
+          <span>&#62;</span>projects
         </h2>
       </div>
       <div className={style.portfolio__flex}>
