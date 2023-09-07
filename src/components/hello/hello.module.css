@@ -76,13 +76,18 @@ h1:nth-of-type(2) {
     padding: 0 5rem;
   }
 
-  /* hello, I'm Tulio  */
+  /* I'm Tulio Minini,  */
   .hello__phrase {
-    padding-top: 25rem;
+    padding-top: 35rem;
   }
+ /* I'm */
+ .hello__phrase h2 {
+  font-size: 4rem;
+}
 
+  /* Tulio Minini */
   .hello__phrase h2 span {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   /* front-end & developer  */
@@ -118,7 +123,7 @@ h1:nth-of-type(2) {
 
   /* hello, I'm Tulio  */
   .hello__phrase {
-    padding-top: 15rem;
+    padding-top: 20rem;
   }
 
   .hello__phrase h2 span {
@@ -162,11 +167,11 @@ h1:nth-of-type(2) {
   }
 
   .hello__phrase h2 {
-    font-size: 3.3rem;
+    font-size: 3rem;
   }
 
   .hello__phrase h2 span {
-    font-size: 3.3rem;
+    font-size: 3rem;
   }
 
   /* front-end & developer  */
@@ -238,19 +243,23 @@ h1:nth-of-type(2) {
     font-size: 3.2rem;
   }
 
+  .hello__phrase h2 {
+    font-size: 2.8rem;
+  }
+
   .hello__phrase h2 span {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
   }
 
   /* front-end & developer  */
   .hello__phrase h1:nth-of-type(1),
   h1:nth-of-type(2) {
-    font-size: 5rem;
+    font-size: 6rem;
     -webkit-text-stroke: 0.1rem var(--color1-pink);
   }
 
   .hello__phrase h1:nth-of-type(2) span {
-    font-size: 5rem;
+    font-size: 6rem;
   }
 
   .hello__photo {

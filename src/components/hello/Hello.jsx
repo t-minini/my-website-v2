@@ -6,7 +6,7 @@ export function Hello() {
     <header id="hello" className={style.hello_container}>
       <div className={style.hello__phrase}>
         <h2>
-          Hello, I'm <span>Tulio</span>
+          I'm <span>Tulio Minini</span>,
         </h2>
         <h1>front-end</h1>
         <h1>

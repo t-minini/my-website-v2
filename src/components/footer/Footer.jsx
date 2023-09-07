@@ -1,11 +1,7 @@
 import { Link } from "react-scroll";
 import style from "./footer.module.css";
 
-import gmail from "./../../assets/icons/gmail.svg";
-import github from "./../../assets/icons/github.svg";
-import cv from "./../../assets/icons/cv-download.svg";
 import top from "./../../assets/icons/back-top-icon.svg";
-import linkedin from "./../../assets/icons/linkedin.svg";
 import cvPdf from "./../../assets/curriculum/tulio-minini-cv.pdf";
 
 export function Footer() {
@@ -20,23 +16,22 @@ export function Footer() {
         title="Back to Top"
       >
         <img
-          className={style.footer__top_icon}
           src={top}
           alt="white doubled arrow pointing up"
         />
         <p>back to top</p>
       </Link>
       <h2>
-        <span>&#62;</span> <span>Tulio</span> Minini <span>&#60;</span>
+        <span>&#62;</span> Tulio Minini <span>&#60;</span>
       </h2>
-      <div className={style.footer__icons}>
+      <div className={style.footer__links}>
         <a
           href="mailto:tulio.mminini@gmail.com"
           target={"_blank"}
           rel="noreferrer"
-          title="Send an e-mail"
+          title="Send me an e-mail"
         >
-          <img src={gmail} alt="white doubled arrow pointing up" />
+          Send me an e-mail
         </a>
         <a
           href="https://www.linkedin.com/in/tulio-minini/"
@@ -44,7 +39,7 @@ export function Footer() {
           rel="noreferrer"
           title="LinkedIn Profile"
         >
-          <img src={linkedin} alt="linkedin pink logo" />
+          LinkedIn
         </a>
         <a
           href="https://github.com/t-minini"
@@ -52,7 +47,7 @@ export function Footer() {
           rel="noreferrer"
           title="GitHub Profile"
         >
-          <img src={github} alt="github pink logo" />
+          GitHub
         </a>
         <a
           href={cvPdf}
@@ -61,7 +56,7 @@ export function Footer() {
           rel="noreferrer"
           title="Download CV"
         >
-          <img src={cv} alt="cv download pink logo" />
+          Download CV
         </a>
       </div>
       <div className={style.footer__copyright}>
