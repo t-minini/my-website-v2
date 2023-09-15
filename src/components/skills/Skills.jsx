@@ -16,6 +16,7 @@ import portuguese from "./../../assets/icons/brazil.svg";
 import bootstrap from "./../../assets/icons/bootstrap.svg";
 import javascript from "./../../assets/icons/javascript.svg";
 import typescript from "./../../assets/icons/typescript.svg";
+import swift from "./../../assets/icons/swift.svg"
 import reactNative from "./../../assets/icons/react-native.svg";
 import redux from "./../../assets/icons/redux.svg"
 import vue from "./../../assets/icons/vue.svg"
@@ -104,6 +105,10 @@ export function Skills() {
             <div>
               <img src={vue} alt="vue icon in blue and green" />
               <p>vue</p>
+            </div>
+            <div>
+              <img src={swift} alt="swift icon in orange and white" />
+              <p>swift</p>
             </div>
           </div>
         </div>
