@@ -14,7 +14,6 @@ export function Portfolio() {
           return (
             <div key={projectsJSON.id} className={style.portfolio__card}>
               <img src={projectsJSON.img} alt="projects screenshot" />
-
               <div className={style.portfolio__card_body}>
                 <h5>{projectsJSON.project}</h5>
                 <p>{projectsJSON.description}</p>
