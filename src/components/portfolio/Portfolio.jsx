@@ -10,7 +10,7 @@ export function Portfolio() {
         </h2>
       </div>
       <div className={style.portfolio__flex}>
-        {projectsJSON.map((projectsJSON) => {
+        {projectsJSON.reverse().map((projectsJSON) => {
           return (
             <div key={projectsJSON.id} className={style.portfolio__card}>
               <img src={projectsJSON.img} alt="projects screenshot" />

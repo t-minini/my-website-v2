@@ -54,5 +54,13 @@
     "github": "https://github.com/t-minini/my-website-v2",
     "website": "https://tuliominini.com/",
     "description": "The second version of my website/portfolio was created with CSS, HTML, and React. It was also the project where I had my first experience using Figma for design practice."
+  },
+  {
+    "id": "007",
+    "img": "/images/portfolio-imgs/calculator-app.jpg",
+    "project": "Calculator App",
+    "github": "https://github.com/t-minini/calculator-app",
+    "website": "https://calculator-app-tm.netlify.app/",
+    "description": "Frontend Developer challenge: I built this landing page using React, HTML, CSS, Flexbox and Grid, CSS Variables and Transitions. The goal was to develop the website as closely as possible to the Figma design."
   }
 ]
