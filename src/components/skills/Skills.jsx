@@ -13,6 +13,7 @@ import redux from './../../assets/icons/redux.svg';
 import docker from './../../assets/icons/docker.svg';
 import nodejs from './../../assets/icons/nodejs.svg';
 import python from './../../assets/icons/python.svg';
+import cSharp from './../../assets/icons/c-sharp.svg';
 import mui from './../../assets/icons/material-ui.svg';
 import github from './../../assets/icons/github-1.svg';
 import angular from './../../assets/icons/angular.svg';
@@ -23,6 +24,7 @@ import bootstrap from './../../assets/icons/bootstrap.svg';
 import javascript from './../../assets/icons/javascript.svg';
 import typescript from './../../assets/icons/typescript.svg';
 import reactNative from './../../assets/icons/react-native.svg';
+import framerMotion from "./../../assets/icons/framer-motion.svg"
 
 export function Skills() {
   return (
@@ -65,6 +67,10 @@ export function Skills() {
               <p>figma</p>
             </div>
             <div>
+              <img src={framerMotion} alt="framer motion icon" />
+              <p>framer motion</p>
+            </div>
+            <div>
               <img src={github} alt="github icon in black color" />
               <p>github</p>
             </div>
@@ -77,6 +83,10 @@ export function Skills() {
         <div className={style.skills__learning}>
           <h3>interests:</h3>
           <div className={style.skills__icons}>
+          <div>
+              <img src={cSharp} alt="purple c sharp icon" />
+              <p>c#</p>
+            </div>
             <div>
               <img src={python} alt="python icon in yellow and blue colors" />
               <p>python</p>

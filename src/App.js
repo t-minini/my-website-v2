@@ -1,17 +1,17 @@
-import "./app.module.css";
+import './app.module.css';
 
-import { Navbar } from "./components/navbar/Navbar";
-import { Hello } from "./components/hello/Hello";
-import { About } from "./components/about/About";
-import { Skills } from "./components/skills/Skills";
-import { Portfolio } from "./components/portfolio/Portfolio";
-import { Footer } from "./components/footer/Footer";
+import { Hello } from './components/hello/Hello';
+import { About } from './components/about/About';
+import { Skills } from './components/skills/Skills';
+import { Footer } from './components/footer/Footer';
+import { Navbar } from './components/navbar/Navbar';
+import { Portfolio } from './components/portfolio/Portfolio';
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hello/>
+      <Hello />
       <About />
       <Skills />
       <Portfolio />
