@@ -52,7 +52,7 @@
     "img": "/images/portfolio-imgs/tulio-minini-website.png",
     "project": "My Website 2023",
     "github": "https://github.com/t-minini/my-website-v2",
-    "website": "https://tuliominini.com/",
+    "website": "https://tulio-minini-v2.netlify.app/",
     "description": "The second version of my website/portfolio was created with CSS, HTML, and React. It was also the project where I had my first experience using Figma for design practice."
   },
   {
@@ -68,7 +68,7 @@
     "img": "/images/portfolio-imgs/tulio-minini-website-2024.jpg",
     "project": "My Website 2024",
     "github": "https://github.com/t-minini/my-website-v3",
-    "website": "https://soft-lebkuchen-f9e7cb.netlify.app/",
-    "description": "Coming soon."
+    "website": "https://tuliominini.com/",
+    "description": "My website design for 2024, created using ReactJs, CSS, HTML, Flexbox, CSS Variables and JSON. This represents a fusion of the skills I acquired in 2023, including some cool animations using Framer Motion."
   }
 ]
